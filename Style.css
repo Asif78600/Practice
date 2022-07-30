@@ -1,0 +1,123 @@
+.schedule{
+background-color: #161616;
+height:312px;
+width: 312px;
+border-radius: 10px;
+display: flex;
+justify-content: center;
+align-items: center;
+flex-direction: column;
+row-gap: 30px;
+/* float: left; */
+
+
+}
+.match{
+    height: 64px;
+    width: 252px;
+    color: black;
+    background-color:white;
+    border: 1px solid black;
+    font-weight: bold;
+    text-align: center;
+    border-radius: 10px;
+    /* margin-top: 30px;
+    margin-left: 30px; */
+    font-size: 1.35em;
+      
+}
+.group{
+    height: 64px;
+    width: 252px;
+    color: black;
+    background-color:white;
+    border: 1px solid black;
+    font-weight: bold;
+    text-align: center;
+    border-radius: 10px;
+    /* margin-top: 30px;
+    margin-left: 30px; */
+    font-size: 1.35em;
+      
+}
+.blog{
+    color: white;
+    background-color: red;
+    height: 64px;
+    width: 252px;
+    font-weight: bold;
+    border: 1px solid black;
+    text-align: center;
+    border-radius: 10px;
+    /* margin-top: 30px;
+    margin-left: 30px; */
+    font-size: 1.35em;
+}
+.span{
+    display: flex;
+    align-items: center;
+    column-gap: 20px;
+}
+.Player{
+    height: 362px;
+    width: 312px;
+    border: 1px solid skyblue;
+    border-radius: 10px;
+}
+.main{
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    column-gap: 1.2vw;
+    row-gap: 2vh;
+    /* float: right; */
+}
+.container{
+    display: flex;
+    column-gap: 1.2vw;
+    width: 80%;
+    margin: 0 auto;
+}
+footer{
+    height: 30vh;
+    width: 100%;
+    background-color: black;
+    color: white;
+    text-align: center;
+    padding-top:10vh;
+    margin-top: 5vh;
+    
+}
+hr{
+border: 1px solid rgba(255, 255, 255, 0.1);
+width: 60%;
+}
+.beneath{
+    color: white;
+    display: inline;
+    margin-right: 40px;
+}
+header{
+    color: aliceblue;
+    background-color: #161616;
+    height: 75vh;
+    width: 80%;
+    background-image: url("Banner.png");
+    background-repeat: no-repeat;
+    background-position: bottom right;
+    margin: 7% 10%;
+    border-radius: 10px;
+    background-size: 30em;
+    
+}
+header h1{
+    font-size: 4em;
+}
+.live{
+   height: 40px; 
+   width: 120px;
+   background-color: red;
+   color: aliceblue;
+   text-align: center;
+   border-radius: 10px;
+
+}
